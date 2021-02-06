@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:background = "@drawable/background2"
+    >
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp">
+    </Space>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:text="Second Grade"
+        android:textSize="0.30in"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="10dp">
+    </Space>
+
+    <ImageButton
+        android:id="@+id/buttonStart"
+        android:background="#90ee90"
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/cons"
+        android:onClick="loadCons"
+        />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="20dp">
+    </Space>
+
+    <ImageButton
+        android:id="@+id/buttonStop"
+        android:layout_width="250dp"
+        android:background="#f7bc44"
+        android:layout_height="125dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/vows"
+        android:layout_centerInParent="true"
+        android:onClick="loadVows"
+
+        />
+
+
+</LinearLayout>
